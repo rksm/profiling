@@ -76,3 +76,6 @@ mod empty_impl;
     feature = "type-check"
 )))]
 pub use empty_impl::*;
+
+mod global;
+pub use global::*;
